@@ -42,6 +42,10 @@ These skills help you think through problems before writing code.
   npx skills@latest add mattpocock/skills/request-refactor-plan
   ```
 
+- **prompt-suggestion-next-input** — Predict the most likely next user message in concise user voice.
+
+  Local skill: `./prompt-suggestion-next-input/SKILL.md`
+
 ## Development
 
 These skills help you write, refactor, and fix code.
@@ -76,6 +80,30 @@ These skills help you write, refactor, and fix code.
   npx skills@latest add mattpocock/skills/scaffold-exercises
   ```
 
+- **reverse-engineering** — Apply reverse engineering workflows to understand existing systems and behavior.
+
+  Local skill: `./reverse-engineering/SKILL.md`
+
+- **reverse-engineering-api** — Capture browser traffic and generate production-ready Python API clients for undocumented APIs.
+
+  Local skill: `./reverse-engineering-api/SKILL.md`
+
+## Research & Triage
+
+These skills focus on investigation, validation, and issue handling.
+
+- **fact-check** — Verify claims with cross-source evidence from links, text, and images.
+
+  Local skill: `./fact-check/SKILL.md`
+
+- **qa** — Run conversational QA sessions and file GitHub issues from reported bugs.
+
+  Local skill: `./qa/SKILL.md`
+
+- **github-triage** — Triage incoming GitHub issues with a label-based workflow and grilling sessions.
+
+  Local skill: `./github-triage/SKILL.md`
+
 ## Tooling & Setup
 
 - **setup-pre-commit** — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests.
@@ -89,6 +117,10 @@ These skills help you write, refactor, and fix code.
   ```
   npx skills@latest add mattpocock/skills/git-guardrails-claude-code
   ```
+
+- **git-workflow** — Apply IdeaVim git workflow conventions for commits, branches, PRs, and CI.
+
+  Local skill: `./git-workflow/SKILL.md`
 
 ## Writing & Knowledge
 
@@ -115,3 +147,19 @@ These skills help you write, refactor, and fix code.
   ```
   npx skills@latest add mattpocock/skills/obsidian-vault
   ```
+
+- **docs-writer** — Write, review, and edit repository documentation and Markdown files with consistent quality.
+
+  Local skill: `./docs-writer/SKILL.md`
+
+- **magic-doc-updater** — Refresh a Magic Doc in place so it matches current codebase state without changelog noise.
+
+  Local skill: `./magic-doc-updater/SKILL.md`
+
+- **session-memory-updater** — Update structured session notes while preserving required template headers and instruction lines.
+
+  Local skill: `./session-memory-updater/SKILL.md`
+
+- **dream-memory-consolidation** — Consolidate scattered memory notes into deduplicated, durable topic files.
+
+  Local skill: `./dream-memory-consolidation/SKILL.md`
